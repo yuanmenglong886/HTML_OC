@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "QGURLProtocol.h"
-#import "TURLSessionProtocol.h"
+#import "QGURLSessionProtocol.h"
 #import "QGReplaceImageProtocol.h"
 @interface AppDelegate ()
 

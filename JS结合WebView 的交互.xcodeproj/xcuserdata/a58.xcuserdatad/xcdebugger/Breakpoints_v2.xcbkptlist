@@ -281,8 +281,8 @@
                   symbolName = "__118-[QGWKWebViewController webView:runJavaScriptTextInputPanelWithPrompt:defaultText:initiatedByFrame:completionHandler:]_block_invoke.220"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.874762"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.902985"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "212"
@@ -296,8 +296,8 @@
                   symbolName = "__copy_helper_block_.227"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.875947"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.904327"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "212"
@@ -311,8 +311,8 @@
                   symbolName = "__destroy_helper_block_.228"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.877191"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.905979"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "212"
@@ -344,8 +344,8 @@
                   symbolName = "__105-[QGWKWebViewController webView:runJavaScriptConfirmPanelWithMessage:initiatedByFrame:completionHandler:]_block_invoke"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.879997"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.909312"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
@@ -359,8 +359,8 @@
                   symbolName = "__copy_helper_block_.195"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.881591"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.910717"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
@@ -374,8 +374,8 @@
                   symbolName = "__destroy_helper_block_.196"
                   moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
-                  timestampString = "508331415.88286"
+                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS-OC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/WKWebView/QGWKWebViewController.m"
+                  timestampString = "508351024.911941"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "192"
@@ -383,38 +383,6 @@
                   offsetFromSymbolStart = "29">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/WKWebView/QGWKWebViewController.m"
-            timestampString = "508331415.773397"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
-            landmarkName = "-webView:didStartProvisionalNavigation:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/WKWebView/QGWKWebViewController.m"
-            timestampString = "508331415.773397"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "249"
-            endingLineNumber = "249"
-            landmarkName = "-webView:didStartProvisionalNavigation:"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -632,55 +600,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGReplaceImageProtocol.m"
-            timestampString = "508329331.235173"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "+canInitWithRequest:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "+[QGReplaceImageProtocol canInitWithRequest:]"
-                  moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/NSURLProtocol/QGReplaceImageProtocol.m"
-                  timestampString = "508331415.921806"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "174">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__45+[QGReplaceImageProtocol canInitWithRequest:]_block_invoke"
-                  moduleName = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/a58/Desktop/%E6%96%87%E4%BB%B6%E5%A4%B9/%E8%B5%84%E6%96%99/JS%20%E4%B8%8EOC/iOS%20%20%E4%B8%AD%20JS%E4%B8%8EOC%E4%BA%92%E8%B0%83%E6%B1%87%E6%80%BB/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92%E5%89%AF%E6%9C%AC/JS%E7%BB%93%E5%90%88WebView%20%E7%9A%84%E4%BA%A4%E4%BA%92/NSURLProtocol/QGReplaceImageProtocol.m"
-                  timestampString = "508331415.923024"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "15"
-                  endingLineNumber = "15"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGReplaceImageProtocol.m"
-            timestampString = "508329333.089266"
+            timestampString = "508350660.965947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "27"
@@ -696,12 +616,204 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGReplaceImageProtocol.m"
-            timestampString = "508329334.161345"
+            timestampString = "508350660.965947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "+canonicalRequestForRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "+canInitWithRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "208"
+            endingLineNumber = "208"
+            landmarkName = "+canonicalRequestForRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "+requestIsCacheEquivalent:toRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "+requestIsCacheEquivalent:toRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "-startLoading"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "+canInitWithRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349290.48796"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "+p_isFilterWithUrlString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "+p_isFilterWithUrlString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508348644.186164"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "+p_isFilterWithUrlString:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "-startLoading"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGURLSessionProtocol.m"
+            timestampString = "508349485.979246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "-startLoading"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JS&#x7ed3;&#x5408;WebView &#x7684;&#x4ea4;&#x4e92;/NSURLProtocol/QGReplaceImageProtocol.m"
+            timestampString = "508350660.965947"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "+canInitWithRequest:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

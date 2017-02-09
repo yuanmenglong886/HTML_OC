@@ -14,8 +14,8 @@
 		3706CD421E4C7C37008968BD /* QGReplaceImageProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */; };
 		3706CD441E4C7DE9008968BD /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD431E4C7DE9008968BD /* image.png */; };
 		3706CD4A1E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */; };
-		3706CD4D1E4C85FA008968BD /* TURLSessionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */; };
 		3706CD4F1E4CAE49008968BD /* 1_yuanmengong886.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */; };
+		3706CD521E4CBD03008968BD /* QGURLSessionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD511E4CBD03008968BD /* QGURLSessionProtocol.m */; };
 		3746BB2D1E4AB79B00D1E363 /* QGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3746BB2C1E4AB79B00D1E363 /* QGJSBridge.m */; };
 		374E2D891E499EC7006101EF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E2D881E499EC7006101EF /* JavaScriptCore.framework */; };
 		374E2D8D1E49A39E006101EF /* HrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2D8C1E49A39E006101EF /* HrefViewController.m */; };
@@ -72,9 +72,9 @@
 		3706CD431E4C7DE9008968BD /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		3706CD481E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
 		3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
-		3706CD4B1E4C85FA008968BD /* TURLSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TURLSessionProtocol.h; sourceTree = "<group>"; };
-		3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TURLSessionProtocol.m; sourceTree = "<group>"; };
 		3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_yuanmengong886.png; sourceTree = "<group>"; };
+		3706CD501E4CBD03008968BD /* QGURLSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGURLSessionProtocol.h; sourceTree = "<group>"; };
+		3706CD511E4CBD03008968BD /* QGURLSessionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGURLSessionProtocol.m; sourceTree = "<group>"; };
 		3746BB2B1E4AB79B00D1E363 /* QGJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGJSBridge.h; sourceTree = "<group>"; };
 		3746BB2C1E4AB79B00D1E363 /* QGJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGJSBridge.m; sourceTree = "<group>"; };
 		374E2D881E499EC7006101EF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -165,12 +165,12 @@
 		3706CD3B1E4C5518008968BD /* NSURLProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				3706CD4B1E4C85FA008968BD /* TURLSessionProtocol.h */,
-				3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */,
 				3706CD3C1E4C5537008968BD /* QGURLProtocol.h */,
 				3706CD3D1E4C5537008968BD /* QGURLProtocol.m */,
 				3706CD401E4C7C37008968BD /* QGReplaceImageProtocol.h */,
 				3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */,
+				3706CD501E4CBD03008968BD /* QGURLSessionProtocol.h */,
+				3706CD511E4CBD03008968BD /* QGURLSessionProtocol.m */,
 			);
 			path = NSURLProtocol;
 			sourceTree = "<group>";
@@ -487,9 +487,9 @@
 				374E2DA11E49A3BF006101EF /* WebViewAndJSScriptCoreController.m in Sources */,
 				374E2DA61E49A4B0006101EF /* JSCallOCBridge.m in Sources */,
 				374E2D8D1E49A39E006101EF /* HrefViewController.m in Sources */,
-				3706CD4D1E4C85FA008968BD /* TURLSessionProtocol.m in Sources */,
 				3706CD371E4C4ABA008968BD /* SafariViewController.m in Sources */,
 				3746BB2D1E4AB79B00D1E363 /* QGJSBridge.m in Sources */,
+				3706CD521E4CBD03008968BD /* QGURLSessionProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
