@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title></title>
+        <style type="text/css">
+            button{
+                Background:red;
+                width:200px;
+                height:200px;
+            }
+        </style>
+
+	</head>
+	<body>
+		<button onclick="fn_open_camera();">拍照</button>
+		<button onclick="fn_call();">打电话</button>
+        
+        
+        <a href="http://www.baidu.com">百度</a>
+        
+        <script>
+            function fn_call(){
+                // 调用OC的call方法
+              alert('fn_call');
+              window.prompt("huaogfgh");
+window.location.href = 'yml://call';
+            }
+        function fn_open_camera()
+        {
+            // 调用OC的fn_open_camera 的方法
+<!--            alert('fn_open_camera');-->
+            window.location.href = 'yml://openCamera';
+            
+        }
+        </script>
+	</body>
+</html>

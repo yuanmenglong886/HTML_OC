@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "QGURLProtocol.h"
+#import "TURLSessionProtocol.h"
+#import "QGReplaceImageProtocol.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +19,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+       NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSLog(@"%@",path);
+   // [NSURLProtocol registerClass:[TURLSessionProtocol class]];
+  [NSURLProtocol registerClass:[QGReplaceImageProtocol class]];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[ViewController alloc]init]];
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

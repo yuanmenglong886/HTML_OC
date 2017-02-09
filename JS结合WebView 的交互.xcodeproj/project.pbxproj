@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3706CD321E4C49CA008968BD /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3706CD311E4C49CA008968BD /* SafariServices.framework */; };
+		3706CD371E4C4ABA008968BD /* SafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD361E4C4ABA008968BD /* SafariViewController.m */; };
+		3706CD3A1E4C4D7A008968BD /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD391E4C4D7A008968BD /* SFViewController.m */; };
+		3706CD3E1E4C5537008968BD /* QGURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD3D1E4C5537008968BD /* QGURLProtocol.m */; };
+		3706CD421E4C7C37008968BD /* QGReplaceImageProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */; };
+		3706CD441E4C7DE9008968BD /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD431E4C7DE9008968BD /* image.png */; };
+		3706CD4A1E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */; };
+		3706CD4D1E4C85FA008968BD /* TURLSessionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */; };
+		3706CD4F1E4CAE49008968BD /* 1_yuanmengong886.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */; };
+		3746BB2D1E4AB79B00D1E363 /* QGJSBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3746BB2C1E4AB79B00D1E363 /* QGJSBridge.m */; };
+		374E2D891E499EC7006101EF /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374E2D881E499EC7006101EF /* JavaScriptCore.framework */; };
+		374E2D8D1E49A39E006101EF /* HrefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2D8C1E49A39E006101EF /* HrefViewController.m */; };
+		374E2D921E49A3A8006101EF /* Iframe.html in Resources */ = {isa = PBXBuildFile; fileRef = 374E2D8F1E49A3A8006101EF /* Iframe.html */; };
+		374E2D931E49A3A8006101EF /* IframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2D911E49A3A8006101EF /* IframeViewController.m */; };
+		374E2DA11E49A3BF006101EF /* WebViewAndJSScriptCoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2D9E1E49A3BF006101EF /* WebViewAndJSScriptCoreController.m */; };
+		374E2DA21E49A3BF006101EF /* WebViewJavascriptCore.html in Resources */ = {isa = PBXBuildFile; fileRef = 374E2D9F1E49A3BF006101EF /* WebViewJavascriptCore.html */; };
+		374E2DA31E49A3BF006101EF /* WebViewJavascriptCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 374E2DA01E49A3BF006101EF /* WebViewJavascriptCore.js */; };
+		374E2DA61E49A4B0006101EF /* JSCallOCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2DA51E49A4B0006101EF /* JSCallOCBridge.m */; };
+		37F93F431E49BFB100DBFD79 /* QGWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F93F421E49BFB100DBFD79 /* QGWKWebViewController.m */; };
+		37F93F471E49C0FE00DBFD79 /* QGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F93F461E49C0FE00DBFD79 /* QGWebViewController.m */; };
+		37F93F491E49C3B000DBFD79 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F93F481E49C3B000DBFD79 /* WebKit.framework */; };
+		37F93F4B1E49D6E400DBFD79 /* WKWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = 37F93F4A1E49D6E400DBFD79 /* WKWebView.html */; };
 		B53AE2DB1C9CECC7007263C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2DA1C9CECC7007263C0 /* main.m */; };
 		B53AE2DE1C9CECC7007263C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2DD1C9CECC7007263C0 /* AppDelegate.m */; };
 		B53AE2E11C9CECC7007263C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2E01C9CECC7007263C0 /* ViewController.m */; };
@@ -15,6 +37,9 @@
 		B53AE2E91C9CECC7007263C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53AE2E71C9CECC7007263C0 /* LaunchScreen.storyboard */; };
 		B53AE2F41C9CECC8007263C0 /* JS__WebView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2F31C9CECC8007263C0 /* JS__WebView____Tests.m */; };
 		B53AE2FF1C9CECC8007263C0 /* JS__WebView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2FE1C9CECC8007263C0 /* JS__WebView____UITests.m */; };
+		B5F86A661C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */; };
+		B5F86A6A1C9D3A23000C82E7 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A691C9D3A23000C82E7 /* test.plist */; };
+		B5F86A6E1C9D3BF9000C82E7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A6D1C9D3BF9000C82E7 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +60,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3706CD311E4C49CA008968BD /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		3706CD351E4C4ABA008968BD /* SafariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariViewController.h; sourceTree = "<group>"; };
+		3706CD361E4C4ABA008968BD /* SafariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariViewController.m; sourceTree = "<group>"; };
+		3706CD381E4C4D7A008968BD /* SFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFViewController.h; sourceTree = "<group>"; };
+		3706CD391E4C4D7A008968BD /* SFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
+		3706CD3C1E4C5537008968BD /* QGURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGURLProtocol.h; sourceTree = "<group>"; };
+		3706CD3D1E4C5537008968BD /* QGURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGURLProtocol.m; sourceTree = "<group>"; };
+		3706CD401E4C7C37008968BD /* QGReplaceImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGReplaceImageProtocol.h; sourceTree = "<group>"; };
+		3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGReplaceImageProtocol.m; sourceTree = "<group>"; };
+		3706CD431E4C7DE9008968BD /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		3706CD481E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
+		3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
+		3706CD4B1E4C85FA008968BD /* TURLSessionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TURLSessionProtocol.h; sourceTree = "<group>"; };
+		3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TURLSessionProtocol.m; sourceTree = "<group>"; };
+		3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_yuanmengong886.png; sourceTree = "<group>"; };
+		3746BB2B1E4AB79B00D1E363 /* QGJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGJSBridge.h; sourceTree = "<group>"; };
+		3746BB2C1E4AB79B00D1E363 /* QGJSBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGJSBridge.m; sourceTree = "<group>"; };
+		374E2D881E499EC7006101EF /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		374E2D8B1E49A39E006101EF /* HrefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HrefViewController.h; sourceTree = "<group>"; };
+		374E2D8C1E49A39E006101EF /* HrefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HrefViewController.m; sourceTree = "<group>"; };
+		374E2D8F1E49A3A8006101EF /* Iframe.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Iframe.html; sourceTree = "<group>"; };
+		374E2D901E49A3A8006101EF /* IframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IframeViewController.h; sourceTree = "<group>"; };
+		374E2D911E49A3A8006101EF /* IframeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IframeViewController.m; sourceTree = "<group>"; };
+		374E2D9D1E49A3BF006101EF /* WebViewAndJSScriptCoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewAndJSScriptCoreController.h; sourceTree = "<group>"; };
+		374E2D9E1E49A3BF006101EF /* WebViewAndJSScriptCoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewAndJSScriptCoreController.m; sourceTree = "<group>"; };
+		374E2D9F1E49A3BF006101EF /* WebViewJavascriptCore.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WebViewJavascriptCore.html; sourceTree = "<group>"; };
+		374E2DA01E49A3BF006101EF /* WebViewJavascriptCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJavascriptCore.js; sourceTree = "<group>"; };
+		374E2DA41E49A4B0006101EF /* JSCallOCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCBridge.h; sourceTree = "<group>"; };
+		374E2DA51E49A4B0006101EF /* JSCallOCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCBridge.m; sourceTree = "<group>"; };
+		37F93F411E49BFB100DBFD79 /* QGWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGWKWebViewController.h; sourceTree = "<group>"; };
+		37F93F421E49BFB100DBFD79 /* QGWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGWKWebViewController.m; sourceTree = "<group>"; };
+		37F93F451E49C0FE00DBFD79 /* QGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGWebViewController.h; sourceTree = "<group>"; };
+		37F93F461E49C0FE00DBFD79 /* QGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGWebViewController.m; sourceTree = "<group>"; };
+		37F93F481E49C3B000DBFD79 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		37F93F4A1E49D6E400DBFD79 /* WKWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WKWebView.html; sourceTree = "<group>"; };
 		B53AE2D61C9CECC6007263C0 /* JS结合WebView 的交互.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JS结合WebView 的交互.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53AE2DA1C9CECC7007263C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B53AE2DC1C9CECC7007263C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +111,9 @@
 		B53AE2FA1C9CECC8007263C0 /* JS结合WebView 的交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS结合WebView 的交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53AE2FE1C9CECC8007263C0 /* JS__WebView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JS__WebView____UITests.m"; sourceTree = "<group>"; };
 		B53AE3001C9CECC8007263C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2754436197,844561150&fm=11&gp=0 2.jpg"; sourceTree = "<group>"; };
+		B5F86A691C9D3A23000C82E7 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
+		B5F86A6D1C9D3BF9000C82E7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +121,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3706CD321E4C49CA008968BD /* SafariServices.framework in Frameworks */,
+				37F93F491E49C3B000DBFD79 /* WebKit.framework in Frameworks */,
+				374E2D891E499EC7006101EF /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +144,125 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3706CD331E4C4A61008968BD /* Safari */ = {
+			isa = PBXGroup;
+			children = (
+				3706CD351E4C4ABA008968BD /* SafariViewController.h */,
+				3706CD361E4C4ABA008968BD /* SafariViewController.m */,
+			);
+			path = Safari;
+			sourceTree = "<group>";
+		};
+		3706CD341E4C4A91008968BD /* SFSafari */ = {
+			isa = PBXGroup;
+			children = (
+				3706CD381E4C4D7A008968BD /* SFViewController.h */,
+				3706CD391E4C4D7A008968BD /* SFViewController.m */,
+			);
+			path = SFSafari;
+			sourceTree = "<group>";
+		};
+		3706CD3B1E4C5518008968BD /* NSURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3706CD4B1E4C85FA008968BD /* TURLSessionProtocol.h */,
+				3706CD4C1E4C85FA008968BD /* TURLSessionProtocol.m */,
+				3706CD3C1E4C5537008968BD /* QGURLProtocol.h */,
+				3706CD3D1E4C5537008968BD /* QGURLProtocol.m */,
+				3706CD401E4C7C37008968BD /* QGReplaceImageProtocol.h */,
+				3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */,
+			);
+			path = NSURLProtocol;
+			sourceTree = "<group>";
+		};
+		3706CD3F1E4C7BFD008968BD /* WKWebViewSupportNSURLPrtocol */ = {
+			isa = PBXGroup;
+			children = (
+				3706CD481E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.h */,
+				3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */,
+			);
+			path = WKWebViewSupportNSURLPrtocol;
+			sourceTree = "<group>";
+		};
+		374E2D871E499EC7006101EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3706CD311E4C49CA008968BD /* SafariServices.framework */,
+				37F93F481E49C3B000DBFD79 /* WebKit.framework */,
+				374E2D881E499EC7006101EF /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		374E2D8A1E49A39E006101EF /* Href */ = {
+			isa = PBXGroup;
+			children = (
+				374E2D8B1E49A39E006101EF /* HrefViewController.h */,
+				374E2D8C1E49A39E006101EF /* HrefViewController.m */,
+			);
+			path = Href;
+			sourceTree = "<group>";
+		};
+		374E2D8E1E49A3A8006101EF /* Iframe */ = {
+			isa = PBXGroup;
+			children = (
+				374E2D8F1E49A3A8006101EF /* Iframe.html */,
+				374E2D901E49A3A8006101EF /* IframeViewController.h */,
+				374E2D911E49A3A8006101EF /* IframeViewController.m */,
+			);
+			path = Iframe;
+			sourceTree = "<group>";
+		};
+		374E2D9C1E49A3BF006101EF /* JavaScriptCore */ = {
+			isa = PBXGroup;
+			children = (
+				374E2D9D1E49A3BF006101EF /* WebViewAndJSScriptCoreController.h */,
+				374E2D9E1E49A3BF006101EF /* WebViewAndJSScriptCoreController.m */,
+				374E2D9F1E49A3BF006101EF /* WebViewJavascriptCore.html */,
+				374E2DA01E49A3BF006101EF /* WebViewJavascriptCore.js */,
+				374E2DA41E49A4B0006101EF /* JSCallOCBridge.h */,
+				374E2DA51E49A4B0006101EF /* JSCallOCBridge.m */,
+			);
+			path = JavaScriptCore;
+			sourceTree = "<group>";
+		};
+		37D24C581E4B2B56008979D6 /* JSPatchANDHTML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JSPatchANDHTML;
+			sourceTree = "<group>";
+		};
+		37F93F401E49BFB100DBFD79 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				37F93F411E49BFB100DBFD79 /* QGWKWebViewController.h */,
+				37F93F421E49BFB100DBFD79 /* QGWKWebViewController.m */,
+				3746BB2B1E4AB79B00D1E363 /* QGJSBridge.h */,
+				3746BB2C1E4AB79B00D1E363 /* QGJSBridge.m */,
+				37F93F4A1E49D6E400DBFD79 /* WKWebView.html */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
+		37F93F441E49C0FE00DBFD79 /* UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				37F93F451E49C0FE00DBFD79 /* QGWebViewController.h */,
+				37F93F461E49C0FE00DBFD79 /* QGWebViewController.m */,
+			);
+			path = UIWebView;
+			sourceTree = "<group>";
+		};
 		B53AE2CD1C9CECC6007263C0 = {
 			isa = PBXGroup;
 			children = (
+				B5F86A6D1C9D3BF9000C82E7 /* index.html */,
 				B53AE2D81C9CECC7007263C0 /* JS结合WebView 的交互 */,
 				B53AE2F21C9CECC8007263C0 /* JS结合WebView 的交互Tests */,
 				B53AE2FD1C9CECC8007263C0 /* JS结合WebView 的交互UITests */,
 				B53AE2D71C9CECC6007263C0 /* Products */,
+				374E2D871E499EC7006101EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +279,29 @@
 		B53AE2D81C9CECC7007263C0 /* JS结合WebView 的交互 */ = {
 			isa = PBXGroup;
 			children = (
+				3706CD3F1E4C7BFD008968BD /* WKWebViewSupportNSURLPrtocol */,
+				3706CD3B1E4C5518008968BD /* NSURLProtocol */,
+				3706CD341E4C4A91008968BD /* SFSafari */,
+				3706CD331E4C4A61008968BD /* Safari */,
+				37D24C581E4B2B56008979D6 /* JSPatchANDHTML */,
+				37F93F441E49C0FE00DBFD79 /* UIWebView */,
+				37F93F401E49BFB100DBFD79 /* WKWebView */,
+				374E2D9C1E49A3BF006101EF /* JavaScriptCore */,
+				374E2D8E1E49A3A8006101EF /* Iframe */,
+				374E2D8A1E49A39E006101EF /* Href */,
 				B53AE2DC1C9CECC7007263C0 /* AppDelegate.h */,
 				B53AE2DD1C9CECC7007263C0 /* AppDelegate.m */,
 				B53AE2DF1C9CECC7007263C0 /* ViewController.h */,
 				B53AE2E01C9CECC7007263C0 /* ViewController.m */,
+				3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */,
+				3706CD431E4C7DE9008968BD /* image.png */,
+				B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */,
 				B53AE2E21C9CECC7007263C0 /* Main.storyboard */,
 				B53AE2E51C9CECC7007263C0 /* Assets.xcassets */,
 				B53AE2E71C9CECC7007263C0 /* LaunchScreen.storyboard */,
 				B53AE2EA1C9CECC7007263C0 /* Info.plist */,
 				B53AE2D91C9CECC7007263C0 /* Supporting Files */,
+				B5F86A691C9D3A23000C82E7 /* test.plist */,
 			);
 			path = "JS结合WebView 的交互";
 			sourceTree = "<group>";
@@ -246,8 +438,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374E2DA31E49A3BF006101EF /* WebViewJavascriptCore.js in Resources */,
+				3706CD441E4C7DE9008968BD /* image.png in Resources */,
 				B53AE2E91C9CECC7007263C0 /* LaunchScreen.storyboard in Resources */,
 				B53AE2E61C9CECC7007263C0 /* Assets.xcassets in Resources */,
+				B5F86A661C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg in Resources */,
+				37F93F4B1E49D6E400DBFD79 /* WKWebView.html in Resources */,
+				B5F86A6E1C9D3BF9000C82E7 /* index.html in Resources */,
+				374E2D921E49A3A8006101EF /* Iframe.html in Resources */,
+				3706CD4F1E4CAE49008968BD /* 1_yuanmengong886.png in Resources */,
+				B5F86A6A1C9D3A23000C82E7 /* test.plist in Resources */,
+				374E2DA21E49A3BF006101EF /* WebViewJavascriptCore.html in Resources */,
 				B53AE2E41C9CECC7007263C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +474,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3706CD3E1E4C5537008968BD /* QGURLProtocol.m in Sources */,
 				B53AE2E11C9CECC7007263C0 /* ViewController.m in Sources */,
+				3706CD3A1E4C4D7A008968BD /* SFViewController.m in Sources */,
+				37F93F471E49C0FE00DBFD79 /* QGWebViewController.m in Sources */,
+				3706CD421E4C7C37008968BD /* QGReplaceImageProtocol.m in Sources */,
+				37F93F431E49BFB100DBFD79 /* QGWKWebViewController.m in Sources */,
 				B53AE2DE1C9CECC7007263C0 /* AppDelegate.m in Sources */,
+				3706CD4A1E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m in Sources */,
+				374E2D931E49A3A8006101EF /* IframeViewController.m in Sources */,
 				B53AE2DB1C9CECC7007263C0 /* main.m in Sources */,
+				374E2DA11E49A3BF006101EF /* WebViewAndJSScriptCoreController.m in Sources */,
+				374E2DA61E49A4B0006101EF /* JSCallOCBridge.m in Sources */,
+				374E2D8D1E49A39E006101EF /* HrefViewController.m in Sources */,
+				3706CD4D1E4C85FA008968BD /* TURLSessionProtocol.m in Sources */,
+				3706CD371E4C4ABA008968BD /* SafariViewController.m in Sources */,
+				3746BB2D1E4AB79B00D1E363 /* QGJSBridge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +715,7 @@
 				B53AE3051C9CECC8007263C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B53AE3061C9CECC8007263C0 /* Build configuration list for PBXNativeTarget "JS结合WebView 的交互Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +724,7 @@
 				B53AE3081C9CECC8007263C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B53AE3091C9CECC8007263C0 /* Build configuration list for PBXNativeTarget "JS结合WebView 的交互UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +733,7 @@
 				B53AE30B1C9CECC8007263C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
