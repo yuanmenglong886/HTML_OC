@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.controllerArray = [NSMutableArray arrayWithObjects:@"HrefViewController",@"IframeViewController",@"WebViewAndJSScriptCoreController",@"QGWKWebViewController",@"QGWebViewController",@"SafariViewController",@"SFViewController",nil];
+    self.controllerArray = [NSMutableArray arrayWithObjects:@"HrefViewController",@"IframeViewController",@"WebViewAndJSScriptCoreController",@"QGWKWebViewController",@"QGWebViewController",@"SafariViewController",@"SFViewController",@"JSPatchAndHTMLController",nil];
     [self installTableView];
     
 

@@ -12,7 +12,6 @@
 		3706CD3A1E4C4D7A008968BD /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD391E4C4D7A008968BD /* SFViewController.m */; };
 		3706CD3E1E4C5537008968BD /* QGURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD3D1E4C5537008968BD /* QGURLProtocol.m */; };
 		3706CD421E4C7C37008968BD /* QGReplaceImageProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */; };
-		3706CD441E4C7DE9008968BD /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD431E4C7DE9008968BD /* image.png */; };
 		3706CD4A1E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */; };
 		3706CD4F1E4CAE49008968BD /* 1_yuanmengong886.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */; };
 		3706CD521E4CBD03008968BD /* QGURLSessionProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 3706CD511E4CBD03008968BD /* QGURLSessionProtocol.m */; };
@@ -25,6 +24,11 @@
 		374E2DA21E49A3BF006101EF /* WebViewJavascriptCore.html in Resources */ = {isa = PBXBuildFile; fileRef = 374E2D9F1E49A3BF006101EF /* WebViewJavascriptCore.html */; };
 		374E2DA31E49A3BF006101EF /* WebViewJavascriptCore.js in Resources */ = {isa = PBXBuildFile; fileRef = 374E2DA01E49A3BF006101EF /* WebViewJavascriptCore.js */; };
 		374E2DA61E49A4B0006101EF /* JSCallOCBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 374E2DA51E49A4B0006101EF /* JSCallOCBridge.m */; };
+		376EF5861E4CD9E9008C1320 /* JSPatch_OC.html in Resources */ = {isa = PBXBuildFile; fileRef = 376EF5851E4CD9E9008C1320 /* JSPatch_OC.html */; };
+		376EF5891E4CDA50008C1320 /* JSPatchAndHTMLController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EF5881E4CDA50008C1320 /* JSPatchAndHTMLController.m */; };
+		376EF58F1E4CDE64008C1320 /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EF58E1E4CDE64008C1320 /* NativeViewController.m */; };
+		376EF5BA1E4CEBF9008C1320 /* JPEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 376EF5961E4CEBF9008C1320 /* JPEngine.m */; };
+		376EF5CA1E4CEBF9008C1320 /* JSPatch.js in Resources */ = {isa = PBXBuildFile; fileRef = 376EF5B91E4CEBF9008C1320 /* JSPatch.js */; };
 		37F93F431E49BFB100DBFD79 /* QGWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F93F421E49BFB100DBFD79 /* QGWKWebViewController.m */; };
 		37F93F471E49C0FE00DBFD79 /* QGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F93F461E49C0FE00DBFD79 /* QGWebViewController.m */; };
 		37F93F491E49C3B000DBFD79 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F93F481E49C3B000DBFD79 /* WebKit.framework */; };
@@ -37,7 +41,6 @@
 		B53AE2E91C9CECC7007263C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53AE2E71C9CECC7007263C0 /* LaunchScreen.storyboard */; };
 		B53AE2F41C9CECC8007263C0 /* JS__WebView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2F31C9CECC8007263C0 /* JS__WebView____Tests.m */; };
 		B53AE2FF1C9CECC8007263C0 /* JS__WebView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53AE2FE1C9CECC8007263C0 /* JS__WebView____UITests.m */; };
-		B5F86A661C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */; };
 		B5F86A6A1C9D3A23000C82E7 /* test.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A691C9D3A23000C82E7 /* test.plist */; };
 		B5F86A6E1C9D3BF9000C82E7 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = B5F86A6D1C9D3BF9000C82E7 /* index.html */; };
 /* End PBXBuildFile section */
@@ -69,7 +72,6 @@
 		3706CD3D1E4C5537008968BD /* QGURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGURLProtocol.m; sourceTree = "<group>"; };
 		3706CD401E4C7C37008968BD /* QGReplaceImageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGReplaceImageProtocol.h; sourceTree = "<group>"; };
 		3706CD411E4C7C37008968BD /* QGReplaceImageProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGReplaceImageProtocol.m; sourceTree = "<group>"; };
-		3706CD431E4C7DE9008968BD /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 		3706CD481E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLProtocol+WebKitSupport.h"; sourceTree = "<group>"; };
 		3706CD491E4C7EAE008968BD /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
 		3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_yuanmengong886.png; sourceTree = "<group>"; };
@@ -89,6 +91,14 @@
 		374E2DA01E49A3BF006101EF /* WebViewJavascriptCore.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = WebViewJavascriptCore.js; sourceTree = "<group>"; };
 		374E2DA41E49A4B0006101EF /* JSCallOCBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCallOCBridge.h; sourceTree = "<group>"; };
 		374E2DA51E49A4B0006101EF /* JSCallOCBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCallOCBridge.m; sourceTree = "<group>"; };
+		376EF5851E4CD9E9008C1320 /* JSPatch_OC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSPatch_OC.html; sourceTree = "<group>"; };
+		376EF5871E4CDA50008C1320 /* JSPatchAndHTMLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchAndHTMLController.h; sourceTree = "<group>"; };
+		376EF5881E4CDA50008C1320 /* JSPatchAndHTMLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchAndHTMLController.m; sourceTree = "<group>"; };
+		376EF58D1E4CDE64008C1320 /* NativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		376EF58E1E4CDE64008C1320 /* NativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
+		376EF5951E4CEBF9008C1320 /* JPEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPEngine.h; sourceTree = "<group>"; };
+		376EF5961E4CEBF9008C1320 /* JPEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPEngine.m; sourceTree = "<group>"; };
+		376EF5B91E4CEBF9008C1320 /* JSPatch.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSPatch.js; sourceTree = "<group>"; };
 		37F93F411E49BFB100DBFD79 /* QGWKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGWKWebViewController.h; sourceTree = "<group>"; };
 		37F93F421E49BFB100DBFD79 /* QGWKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QGWKWebViewController.m; sourceTree = "<group>"; };
 		37F93F451E49C0FE00DBFD79 /* QGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QGWebViewController.h; sourceTree = "<group>"; };
@@ -111,7 +121,6 @@
 		B53AE2FA1C9CECC8007263C0 /* JS结合WebView 的交互UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JS结合WebView 的交互UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53AE2FE1C9CECC8007263C0 /* JS__WebView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JS__WebView____UITests.m"; sourceTree = "<group>"; };
 		B53AE3001C9CECC8007263C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "u=2754436197,844561150&fm=11&gp=0 2.jpg"; sourceTree = "<group>"; };
 		B5F86A691C9D3A23000C82E7 /* test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test.plist; sourceTree = "<group>"; };
 		B5F86A6D1C9D3BF9000C82E7 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -229,6 +238,14 @@
 		37D24C581E4B2B56008979D6 /* JSPatchANDHTML */ = {
 			isa = PBXGroup;
 			children = (
+				376EF5951E4CEBF9008C1320 /* JPEngine.h */,
+				376EF5961E4CEBF9008C1320 /* JPEngine.m */,
+				376EF5B91E4CEBF9008C1320 /* JSPatch.js */,
+				376EF5851E4CD9E9008C1320 /* JSPatch_OC.html */,
+				376EF5871E4CDA50008C1320 /* JSPatchAndHTMLController.h */,
+				376EF5881E4CDA50008C1320 /* JSPatchAndHTMLController.m */,
+				376EF58D1E4CDE64008C1320 /* NativeViewController.h */,
+				376EF58E1E4CDE64008C1320 /* NativeViewController.m */,
 			);
 			path = JSPatchANDHTML;
 			sourceTree = "<group>";
@@ -294,8 +311,6 @@
 				B53AE2DF1C9CECC7007263C0 /* ViewController.h */,
 				B53AE2E01C9CECC7007263C0 /* ViewController.m */,
 				3706CD4E1E4CAE49008968BD /* 1_yuanmengong886.png */,
-				3706CD431E4C7DE9008968BD /* image.png */,
-				B5F86A651C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg */,
 				B53AE2E21C9CECC7007263C0 /* Main.storyboard */,
 				B53AE2E51C9CECC7007263C0 /* Assets.xcassets */,
 				B53AE2E71C9CECC7007263C0 /* LaunchScreen.storyboard */,
@@ -439,12 +454,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				374E2DA31E49A3BF006101EF /* WebViewJavascriptCore.js in Resources */,
-				3706CD441E4C7DE9008968BD /* image.png in Resources */,
+				376EF5861E4CD9E9008C1320 /* JSPatch_OC.html in Resources */,
 				B53AE2E91C9CECC7007263C0 /* LaunchScreen.storyboard in Resources */,
 				B53AE2E61C9CECC7007263C0 /* Assets.xcassets in Resources */,
-				B5F86A661C9D3508000C82E7 /* u=2754436197,844561150&fm=11&gp=0 2.jpg in Resources */,
 				37F93F4B1E49D6E400DBFD79 /* WKWebView.html in Resources */,
 				B5F86A6E1C9D3BF9000C82E7 /* index.html in Resources */,
+				376EF5CA1E4CEBF9008C1320 /* JSPatch.js in Resources */,
 				374E2D921E49A3A8006101EF /* Iframe.html in Resources */,
 				3706CD4F1E4CAE49008968BD /* 1_yuanmengong886.png in Resources */,
 				B5F86A6A1C9D3A23000C82E7 /* test.plist in Resources */,
@@ -474,6 +489,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376EF5BA1E4CEBF9008C1320 /* JPEngine.m in Sources */,
+				376EF58F1E4CDE64008C1320 /* NativeViewController.m in Sources */,
 				3706CD3E1E4C5537008968BD /* QGURLProtocol.m in Sources */,
 				B53AE2E11C9CECC7007263C0 /* ViewController.m in Sources */,
 				3706CD3A1E4C4D7A008968BD /* SFViewController.m in Sources */,
@@ -485,6 +502,7 @@
 				374E2D931E49A3A8006101EF /* IframeViewController.m in Sources */,
 				B53AE2DB1C9CECC7007263C0 /* main.m in Sources */,
 				374E2DA11E49A3BF006101EF /* WebViewAndJSScriptCoreController.m in Sources */,
+				376EF5891E4CDA50008C1320 /* JSPatchAndHTMLController.m in Sources */,
 				374E2DA61E49A4B0006101EF /* JSCallOCBridge.m in Sources */,
 				374E2D8D1E49A39E006101EF /* HrefViewController.m in Sources */,
 				3706CD371E4C4ABA008968BD /* SafariViewController.m in Sources */,

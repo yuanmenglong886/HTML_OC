@@ -16,7 +16,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+        UILabel *titleLabel=[[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 50)];
+    titleLabel.text=@"原生页面";
+    titleLabel.textColor=[UIColor redColor];
+    [self.view addSubview:titleLabel];
+    
+
+    UIButton *backButton=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 64)];
+    [backButton setBackgroundColor:[UIColor whiteColor]];
+    [backButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [backButton setTitle:@"返回" forState:UIControlStateNormal];
+    [backButton addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backButton];
     // Do any additional setup after loading the view.
+}
+-(void)backAction:(UIButton *)sender
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

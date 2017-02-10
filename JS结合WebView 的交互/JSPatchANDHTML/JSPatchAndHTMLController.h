@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface JSPatchAndHTMLController : UIViewController
-
+#import <WebKit/WebKit.h>
+@interface JSPatchAndHTMLController : UIViewController<WKNavigationDelegate,WKUIDelegate,WKScriptMessageHandler>
+@property (nonatomic,weak) WKWebView *wkWebView;
+@property (nonatomic,strong)WKWebView *rwWebView;
 @end
