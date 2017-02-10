@@ -18,6 +18,13 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 200,self.view.frame.size.width,50)];
+    label.text = @"Native";
+    label.font = [UIFont systemFontOfSize:20];
+    label.backgroundColor = [UIColor blueColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 
     UIButton *backButton=[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 64)];
     [backButton setBackgroundColor:[UIColor whiteColor]];
