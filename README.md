@@ -58,4 +58,4 @@
 
     2. 阅读WebKit 的源码不难发现 ,在 私有的API接口下也是实现了相应的接口 ，有用到NSURLProtocol ,在这里我们可以利用runtime 来动态的获取 当前的属性browsingContextController  cls = [[[WKWebView new] valueForKey:@"browsingContextController"] class]; 使用该属性动态的去注册自动的协议registerSchemeForCustomProtocol来达到类似于UIWebView 一样缓存的作用
 
-### 在该案文章中 只是原理的概述，具体实现请移步：https://github.com/yuanmenglong886/HTML_OC
+### 在本篇中只是原理的概述，具体实现请移步：https://github.com/yuanmenglong886/HTML_OC
