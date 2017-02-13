@@ -48,15 +48,14 @@
 
 ## 四.基于UIWebView 的缓存加载    
 
-### 1. 对用webview 系统提供了相应的接口 NSURLProtocol ，我们只用继承该类重新它的方法 ，配合URLSesssion 进行本地的缓存 
+    1. 对用webview 系统提供了相应的接口 NSURLProtocol ，我们只用继承该类重新它的方法 ，配合URLSesssion 进行本地的缓存 
 
-### 2. 在某一个HTML页面需要进行缓存的时候，进行相应的协议注册  ，在跳出该页面时，取消协议的注册
+    2. 在某一个HTML页面需要进行缓存的时候，进行相应的协议注册  ，在跳出该页面时，取消协议的注册
 
 ## 五.基于WKWebView 的缓存加载
 
-###  1.由于iOS 系统没有向iOS 开发者开放 WKWebview  实现Native 缓存的接口，在公有的API下是无法实现利用NSURLProtocol来进行本地缓存的
+    1.由于iOS 系统没有向iOS 开发者开放 WKWebview  实现Native 缓存的接口，在公有的API下是无法实现利用NSURLProtocol来进行本地缓存的
 
-###  2. 阅读WebKit 的源码不难发现 ,在 私有的API接口下也是实现了相应的接口 ，有用到NSURLProtocol ,在这里我们可以利用runtime 来动态的获取 当前的属性browsingContextController  cls = [[[WKWebView new] valueForKey:@"browsingContextController"] class]; 使用该属性动态的去注册自动的协议registerSchemeForCustomProtocol
-### 来达到类似于UIWebView 一样缓存的作用
+    2. 阅读WebKit 的源码不难发现 ,在 私有的API接口下也是实现了相应的接口 ，有用到NSURLProtocol ,在这里我们可以利用runtime 来动态的获取 当前的属性browsingContextController  cls = [[[WKWebView new] valueForKey:@"browsingContextController"] class]; 使用该属性动态的去注册自动的协议registerSchemeForCustomProtocol来达到类似于UIWebView 一样缓存的作用
 
 ### 在该案文章中 只是原理的概述，具体实现请移步：https://github.com/yuanmenglong886/HTML_OC
